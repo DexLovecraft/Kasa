@@ -1,0 +1,19 @@
+.header {
+    width: 90%;
+    margin: 40px auto;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu{
+    align-items: center;
+    list-style: none;
+    display: flex;
+    font-size: 1.8em;
+    width: 300px;
+    justify-content: space-between;
+    color: #FF6060;
+    ;
+}
+
