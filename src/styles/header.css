@@ -10,10 +10,10 @@
     align-items: center;
     list-style: none;
     display: flex;
-    font-size: 1.8em;
-    width: 300px;
+    font-size: 1.5em;
+    width: 270px;
     justify-content: space-between;
     color: #FF6060;
-    ;
+    padding: 0;
 }
 

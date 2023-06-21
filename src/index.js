@@ -13,6 +13,6 @@ root.render(
   <React.Fragment>
     <Header />
     <Banner img={home__banner} text={'Chez vous, partout et ailleurs'}/>
-    <Banner img={about__banner} text={''}/>
+    {/* <Banner img={about__banner} text={''}/> Banner pour la page a propos*/}
   </React.Fragment>
 );
