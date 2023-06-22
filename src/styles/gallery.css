@@ -6,4 +6,6 @@
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
