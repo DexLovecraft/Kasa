@@ -33,6 +33,7 @@
 
 .banner__text {
     font-size: 3em;
+    font-weight: 500;
     color: white;
     margin: auto;
     grid-area: 2 / 2 / 3 / 3;
