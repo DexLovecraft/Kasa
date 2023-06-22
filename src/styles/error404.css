@@ -1,0 +1,8 @@
+.error {
+    color: #FF6060;
+}
+
+.error__title {
+    font-weight: 700;
+    font-size: 4em;
+}
