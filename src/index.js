@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css'
 
 import Header from './components/header';
-import Banner from './components/banner';
-import Gallery from './components/gallery';
+// import Banner from './components/banner';
+// import Gallery from './components/gallery';
 import Footer from './components/footer';
 import Error404 from './components/error404';
 
-import home__banner from './img/home__banner.png'
+// import home__banner from './img/home__banner.png'
 // import about__banner from './img/about__banner.png'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

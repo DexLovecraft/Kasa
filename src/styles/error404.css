@@ -1,8 +1,23 @@
 .error {
     color: #FF6060;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .error__title {
+    margin: 50px 0 20px 0;
     font-weight: 700;
-    font-size: 4em;
+    font-size: 18em;
+}
+
+.error__text {
+    font-size: 2em;
+}
+
+.error__link {
+    font-size: 1.1em;
+    margin-top: 180px;
 }
