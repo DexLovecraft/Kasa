@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css'
 
-import Header from './components/header';
-import Banner from './components/banner';
-// import Gallery from './components/gallery';
-import Footer from './components/footer';
-import CollapseAbout from './components/collapseAbout';
+import Header from './components/Shared/header';
+import Banner from './components/Shared/banner';
+// import Gallery from './components/Home/gallery';
+import Footer from './components/Shared/footer';
+import CollapseAbout from './components/About/collapseAbout';
 // import Error404 from './components/error404';
 
 // import home__banner from './img/home__banner.png'

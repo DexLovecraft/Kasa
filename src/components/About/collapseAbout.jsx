@@ -1,6 +1,6 @@
 import CollapseAboutItem from "./collapseAboutItem"
-import collapseValue from "../datas/collapse.json"
-import '../styles/collapseAbout.css'
+import collapseValue from "../../datas/collapse.json"
+import '../../styles/About/collapseAbout.css'
 
 function CollapseAbout () {
     return (

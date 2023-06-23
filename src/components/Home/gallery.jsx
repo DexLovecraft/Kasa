@@ -1,5 +1,5 @@
-import '../styles/gallery.css'
-import logements from '../datas/logements.json'
+import '../styles/Home/gallery.css'
+import logements from '../../datas/logements.json'
 import Thumbnail from './thumbnail'
 
 function Gallery() {
