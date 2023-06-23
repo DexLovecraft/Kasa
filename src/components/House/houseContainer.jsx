@@ -1,9 +1,11 @@
 import '../../styles/House/houseContainer.css'
+import house from '../../datas/logements.json'
+import Carrousel from './carrousel'
 
 function House () {
     return (
         <div className="house__container">
-            <p>Test</p>
+            <Carrousel img={house[0].pictures}/>
         </div>
     )
 }
