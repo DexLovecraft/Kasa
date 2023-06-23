@@ -1,4 +1,4 @@
-import '../styles/thumbnail.css'
+import '../../styles/Home/thumbnail.css'
 
 function Thumbnail(props) {
     const thumbImg = props.img

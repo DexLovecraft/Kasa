@@ -1,4 +1,4 @@
-import '../styles/banner.css'
+import '../../styles/Shared/banner.css'
 
 function Banner (props) {
     const bannerImg = props.img

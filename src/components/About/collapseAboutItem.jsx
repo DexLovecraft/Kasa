@@ -1,6 +1,6 @@
 import { useState } from "react"
-import '../styles/collapseAbout.css'
-import arrow from '../img/arrow.svg'
+import '../../styles/About/collapseAbout.css'
+import arrow from '../../img/arrow.svg'
 
 function CollapseAboutItem (props) {
     const collapseTitle = props.title

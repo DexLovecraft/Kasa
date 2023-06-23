@@ -1,5 +1,5 @@
-import logo__global from '../img/logo__global.svg'
-import '../styles/header.css'
+import logo__global from '../../img/logo__global.svg'
+import '../../styles/Shared/header.css'
 
 function Header () {
     return (
