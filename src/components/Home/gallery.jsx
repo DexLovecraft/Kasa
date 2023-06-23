@@ -1,4 +1,4 @@
-import '../styles/Home/gallery.css'
+import '../../styles/Home/gallery.css'
 import logements from '../../datas/logements.json'
 import Thumbnail from './thumbnail'
 
