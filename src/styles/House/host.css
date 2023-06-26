@@ -1,0 +1,20 @@
+.host__container {
+    margin: 0;
+    display: flex;
+}
+
+.host__name {
+    color: #FF6060;
+    font-size: 1.125em;
+    width: 90px;
+    text-align: right;
+    margin: auto;
+    margin-right: 10px;
+    line-height: 142.6%;  
+}
+
+.host__img {
+    height: 64px;
+    width: 64px;
+    border-radius: 64px;
+}
