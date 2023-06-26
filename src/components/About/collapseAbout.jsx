@@ -6,7 +6,7 @@ function CollapseAbout () {
     return (
         <div className="collapsesGeneral__container">
         {collapseValue.map((item) => (
-            <CollapseAboutItem title={item.title} text={item.description}/>
+            <CollapseAboutItem title={item.title} text={item.description} key={item.title}/>
         ))}
         </div>
     )

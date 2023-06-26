@@ -1,6 +1,7 @@
 import Tag from './tag'
 import '../../styles/House/info.css'
 import Host from './host'
+import Rating from './rating'
 
 function Info (props) {
 
@@ -13,12 +14,13 @@ function Info (props) {
                 <p className='location'>{house.location}</p>
                 <div className='tags'>
                     {house.tags.map((tag) => (
-                        <Tag tagText={tag}/>
+                        <Tag tagText={tag} key={tag}/>
                     ))}
                 </div>
             </div>
             <div className='secondary'>
                 <Host host={house.host}/>
+                <Rating rate={house.rating}/>
             </div>
         </div>
     )

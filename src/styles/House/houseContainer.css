@@ -3,3 +3,9 @@
     min-height: 80vh;
     margin: auto;
 }
+
+.houseCollapse {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
