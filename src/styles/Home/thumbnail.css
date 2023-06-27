@@ -41,3 +41,20 @@
     z-index: 3;
 }
 
+
+@media (max-width: 918px) {
+    .thumbnail {
+        margin: 0 0 25px 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 481px) {
+    .thumbnail {
+        height: 255px;
+    }
+    .thumbnail__name {
+        font-size: .8em;
+    }
+}
+

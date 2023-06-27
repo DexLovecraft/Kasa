@@ -1,6 +1,6 @@
 .text__container {
-    min-width: 115px;
-    height: 27px;
+    min-width: 125px;
+    max-height: 30px;
     background-color: #FF6060;
     border-radius: 10px;
     display: flex;
@@ -14,4 +14,17 @@
     color: #FFF;
     margin: 5px;
     font-size:  0.875em;
+    text-align: center;
+}
+
+
+@media (max-width: 481px) {
+    .text__container {
+        margin-bottom: 10px;
+    }
+
+    .text {
+        font-size: 0.625rem;
+        margin: 5px;
+    }
 }

@@ -1,6 +1,6 @@
 .error {
     color: #FF6060;
-    height: 70vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,4 +20,51 @@
 .error__link {
     font-size: 1.1em;
     margin-top: 180px;
+    text-align: center;
+}
+
+@media (max-height: 800px) {
+    .error__title {
+        font-size: 13em;
+    }
+    .error__link {
+        margin: 80px;
+    }
+}
+
+@media (max-width: 847px) {
+    .error__title {
+        font-size: 13em;
+    }
+    .error__text {
+        font-size: 1.25em;
+    }
+    .error__link {
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 543px) {
+    .error__title {
+        font-size: 10em;
+    }
+    .error__text {
+        font-size: 1em;
+    }
+    .error__link {
+        font-size: .7em;
+    }
+}
+
+@media (max-width: 481px) {
+    .error__title {
+        font-size: 7em;
+    }
+    .error__text {
+        font-size: 0.6em;
+    }
+    .error__link {
+        width: 100%;
+        font-size: .5em;
+    }
 }

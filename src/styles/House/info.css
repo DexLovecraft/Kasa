@@ -12,7 +12,7 @@
     width: 25%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-end;
 }
 
@@ -34,4 +34,31 @@
 
 .location {
     font-size: 1.125em;
+}
+
+@media (max-width: 847px) {
+    .info__container {
+        flex-direction: column;
+    }
+    .main {
+        width: 100%;
+    }
+
+    .secondary {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 481px) {
+    
+    .title {
+        font-size: 1.125em;
+    }
+
+    .tags {
+        flex-wrap: wrap;
+    }
 }

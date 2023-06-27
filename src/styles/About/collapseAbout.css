@@ -1,5 +1,5 @@
 .collapsesGeneral__container {
-    min-height: 30vh;
+    min-height: 70vh;
 }
 
 .collapse__container {
@@ -51,4 +51,23 @@
     margin-top: 0;
     font-size: 1.5em;
     padding: 25px;
+}
+
+@media (max-width: 481px) {
+    .collapse__container{
+        margin-bottom: 30px;
+    }
+    .collapse {
+        height: 30px;
+    }
+    .collapse__text {
+        font-size: 0.8125em;
+    }
+    .collapse__button{
+        width: 18px;
+        height: 18px;
+    }
+    .description__text{
+        font-size: 0.75em;
+    }
 }
