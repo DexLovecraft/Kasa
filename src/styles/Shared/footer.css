@@ -7,6 +7,7 @@
     justify-content: flex-end;
     align-items: center;    
     margin-top: 60px;
+    margin-bottom: 0;
 }
 
 .footer__img {
@@ -17,4 +18,13 @@
     font-size: 1.5em;
     margin-bottom: 30px;
     color: #FFF;
+}
+
+@media (max-width: 481px) {
+    .footer {
+        justify-content: center;
+    }
+    .footer__text {
+        font-size: 0.75em;
+    }
 }

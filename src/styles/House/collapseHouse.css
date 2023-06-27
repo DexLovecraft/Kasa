@@ -1,7 +1,6 @@
 .collapseHouse__container {
-    width: 45%;
-    margin: auto;
-    margin-top: 0;
+    width: 47%;
+    margin: 0;
     margin-bottom: 50px;
 }
 
@@ -48,4 +47,19 @@
     margin-top: 0;
     font-size:  1.125em;
     padding: 25px;
+}
+
+@media (max-width: 847px) {
+    .collapseHouse__container{
+        width: 100%;
+    }
+    .collapseHouse {
+        height: 30px;
+    }
+    .collapseHouse__title {
+        font-size: .8125em;
+    }
+    .collapseHouse__text{
+        font-size: .75;
+    }
 }

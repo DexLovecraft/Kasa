@@ -40,3 +40,25 @@
     position: relative;
     z-index: 2;
 }
+
+@media (max-width: 847px) {
+    .banner__text {
+        font-size: 2.1em;
+    }
+}
+
+@media (max-width: 543px) {
+    .banner__text {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 481px) {
+    .banner__text {
+        font-size: 1em;
+    }
+    .banner {
+        height: 111px;
+        margin: 30px auto;
+    }
+}

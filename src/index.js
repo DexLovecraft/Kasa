@@ -7,9 +7,10 @@ import Footer from './components/Shared/footer';
 // import Banner from './components/Shared/banner';
 // import Gallery from './components/Home/gallery';
 // import CollapseAbout from './components/About/collapseAbout';
-import House from './components/House/houseContainer';
-// import Error404 from './components/error404';
+// import House from './components/House/house';
+import Error404 from './components/error404';
 
+// import house from './datas/logements.json'
 // import home__banner from './img/home__banner.png'
 // import about__banner from './img/about__banner.png'
 
@@ -21,8 +22,8 @@ root.render(
     <Gallery /> */}
     {/* <Banner img={about__banner} text={''}/>
     <CollapseAbout/> */}
-    <House/>
-    {/* <Error404 /> */}
+    {/* <House house={house[0]}/> */}
+    <Error404 />
     <Footer/>
   </React.Fragment>
 );
