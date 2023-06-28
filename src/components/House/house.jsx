@@ -1,10 +1,20 @@
-import '../../styles/House/houseContainer.css'
+import { useEffect } from 'react'
+import '../../styles/House/house.css'
 import Carrousel from './carrousel'
 import Info from './info'
 import CollapseHouse from './collapseHouse'
 
 function House (props) {
     const house= props.house
+    const changeSelection = props.changeSelection
+
+    useEffect(() => {
+        document.title = `Kasa - ${house.title}`
+    }, [house.title])
+
+    useEffect(() => {
+        changeSelection('')
+    }, [changeSelection])
 
     return (
         <div className="house__container">
