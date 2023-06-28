@@ -15,13 +15,21 @@ function Carrousel (props) {
         imageNumber === CarrouselImg.length - 1 ? updateImageNumber(0) : updateImageNumber(imageNumber+1)
     }
 
-    return (
+    return CarrouselImg.length === 1 ? (
+        <div className='carrousel__container'>
+            <img src={CarrouselImg[imageNumber]} alt="house" className='house__img' />
+        </div>
+    ) :  (
         <div className='carrousel__container'>
             <img src={arrow} alt="arrow to navigate in images to the left" className='arrow arrow--left' onClick={goToPreviousImage} />
             <img src={CarrouselImg[imageNumber]} alt="house" className='house__img' />
             <img src={arrow} alt="arrow to navigate in images to the right" className='arrow arrow--right' onClick={goToNextImage} />
         </div>
     )
+
+    
+
+   
 }
   
 export default Carrousel

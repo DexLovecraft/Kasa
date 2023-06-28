@@ -41,6 +41,7 @@
     position: relative;
     top: -10px;
     z-index: 0;
+    min-height: 240px;
 }
 
 .collapseHouse__text{
@@ -52,12 +53,15 @@
 @media (max-width: 847px) {
     .collapseHouse__container{
         width: 100%;
-    }
+        margin-bottom: 20px;    }
     .collapseHouse {
         height: 30px;
     }
     .collapseHouse__title {
         font-size: .8125em;
+    }
+    .collapseHouse__text__container{
+        min-height: 145px;
     }
     .collapseHouse__text{
         font-size: .75em;
