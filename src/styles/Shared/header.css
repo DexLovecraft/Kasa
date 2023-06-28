@@ -24,6 +24,10 @@
     padding: 0;
 }
 
+.selected {
+    border-bottom: #FF6060 3px solid;
+}
+
 @media (max-width: 847px) {
     .header__menu{
         width: 40%;
