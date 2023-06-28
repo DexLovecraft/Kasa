@@ -34,6 +34,7 @@
 
 .location {
     font-size: 1.125em;
+    margin-top: 5px;
 }
 
 @media (max-width: 847px) {

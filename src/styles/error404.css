@@ -1,6 +1,6 @@
 .error {
     color: #FF6060;
-    height: 75vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,21 +50,18 @@
         font-size: 10em;
     }
     .error__text {
-        font-size: 1em;
+        font-size: 1.125em;
+        width: 80%;
+        margin: inherit auto;
+        text-align: center;
     }
     .error__link {
-        font-size: .7em;
+        font-size: .875em;
     }
 }
 
 @media (max-width: 481px) {
     .error__title {
         font-size: 7em;
-    }
-    .error__text {
-        font-size: 0.6em;
-    }
-    .error__link {
-        font-size: .5em;
     }
 }
