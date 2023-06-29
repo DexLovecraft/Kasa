@@ -31,7 +31,7 @@ function App () {
                   <Route path="/" element={
                     <React.Fragment>
                       <Banner img={home__banner} text={'Chez vous, partout et ailleurs'}/>
-                      <Gallery whichHouse={whichHouse} updateWhichHouse={updateWhichHouse}/>
+                      <Gallery updateWhichHouse={updateWhichHouse}/>
                     </React.Fragment>
                    } />
                    <Route path="/about" element={
