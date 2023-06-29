@@ -55,6 +55,7 @@
 
 @media (max-width: 481px) {
     .collapse__container{
+        width: 85%;
         margin-bottom: 20px;
     }
     .collapse {

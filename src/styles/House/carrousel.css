@@ -1,6 +1,6 @@
 .carrousel__container {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -25,20 +25,31 @@
 
 .arrow--right {
     margin: auto;
-    grid-area: 2 / 8 / 3 / 9;
+    grid-area: 2 / 9 / 3 / 10;
     transform: rotate(-90deg);
 }
 
 .house__img {
     width: 100%;
     height: 100%;
-    grid-area: 1 / 1 / 4 / 9;
+    grid-area: 1 / 1 / 4 / 10;
     object-fit: cover;
+}
+
+.house__img__number {
+    color: white;
+    margin: auto auto 10px auto;
+    font-size: 1.125em;
+    grid-area: 3 / 5 / 4 / 6;
 }
 
 @media (max-width: 481px) {
     .carrousel__container {
         height: 255px;
+    }
+
+    .house__img__number {
+        opacity: 0;
     }
 
     .arrow {

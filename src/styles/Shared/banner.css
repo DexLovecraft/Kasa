@@ -65,4 +65,7 @@
         height: 111px;
         margin: 20px auto;
     }
+    .banner__about {
+        height: 223px;
+    }
 }

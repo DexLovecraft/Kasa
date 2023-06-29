@@ -36,7 +36,7 @@ function App () {
                    } />
                    <Route path="/about" element={
                     <React.Fragment>
-                      <Banner img={about__banner} text={''}/>
+                      <Banner img={about__banner} text={''} modif='about'/>
                       <CollapseAbout/>
                     </React.Fragment>
                    } />

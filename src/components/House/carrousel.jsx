@@ -23,6 +23,7 @@ function Carrousel (props) {
         <div className='carrousel__container'>
             <img src={arrow} alt="arrow to navigate in images to the left" className='arrow arrow--left' onClick={goToPreviousImage} />
             <img src={CarrouselImg[imageNumber]} alt="house" className='house__img' />
+            <p className='house__img__number'>{`${imageNumber + 1} / ${CarrouselImg.length}`}</p>
             <img src={arrow} alt="arrow to navigate in images to the right" className='arrow arrow--right' onClick={goToNextImage} />
         </div>
     )
