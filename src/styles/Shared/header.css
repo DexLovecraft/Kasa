@@ -24,7 +24,7 @@
     padding: 0;
 }
 
-.selected {
+.header__menu a.active {
     border-bottom: #FF6060 3px solid;
 }
 

@@ -8,6 +8,8 @@
     align-items: center;    
     margin-top: 60px;
     margin-bottom: -20px;
+    position: relative;
+    bottom: 0;
 }
 
 .footer__img {

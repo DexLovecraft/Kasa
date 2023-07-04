@@ -2,13 +2,10 @@ import active from '../../img/star-active.svg'
 import inactive from '../../img/star-inactive.svg'
 import '../../styles/House/rating.css'
 
-
 let elementToDisplay = []
 
-
-function rateLoop(rate) {
+const rateLoop = (rate) => {
     elementToDisplay = []
-    // const rateBlank = 5 - rate
 
     for ( let i = 1; i <= 5; i++){
         if (i <= rate){

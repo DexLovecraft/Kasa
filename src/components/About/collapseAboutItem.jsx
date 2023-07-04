@@ -3,8 +3,7 @@ import '../../styles/About/collapseAbout.css'
 import arrow from '../../img/arrow.svg'
 
 function CollapseAboutItem (props) {
-    const collapseTitle = props.title
-    const collapseText = props.text
+    const {title, text} = props
 
     const [isOpen, updateIsOpen] = useState(false)
 
@@ -12,23 +11,18 @@ function CollapseAboutItem (props) {
         updateIsOpen(!isOpen)
     };
 
-    return !isOpen ? (
-        <div className="collapse__container">
-            <div className="collapse" onClick={handleClick}>
-                <p className="collapse__text">{collapseTitle}</p>
-                <img src={arrow} alt="arrow" className="collapse__button"/>
-            </div>
+    return(
+    <div className="collapse__container">
+        <div className="collapse" onClick={handleClick}>
+            <p className="collapse__text">{title}</p>
+            <img src={arrow} alt="arrow" className="collapse__button"/>
         </div>
-    ) : (
-        <div className="collapse__container">
-            <div className="collapse" onClick={handleClick}>
-                <p className="collapse__text">{collapseTitle}</p>
-                <img src={arrow} alt="arrow" className="collapse__button collapse__button--open"/>
-            </div>
+        {!isOpen ? '' : 
             <div className="description">
-                <p className="description__text">{collapseText}</p>
-            </div>
+            <p className="description__text">{text}</p>
         </div>
+        }
+    </div> 
     )
 }
 

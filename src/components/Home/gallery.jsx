@@ -1,15 +1,9 @@
-import { useEffect } from 'react'
 import '../../styles/Home/gallery.css'
 import logements from '../../datas/logements.json'
 import Thumbnail from './thumbnail'
 
-function Gallery(props) {
-    const updateWhichHouse = props.updateWhichHouse
-
-    useEffect(() => {
-        document.title = `Kasa - Liste des appartements`
-    }, [])
-
+function Gallery() {
+    
     return (
         <div className='gallery'>
             {logements.map((logement) => (
@@ -18,7 +12,6 @@ function Gallery(props) {
                     name={logement.title}
                     id={logement.id}
                     key={`${logement.title} ${logement.id}`}
-                    updateWhichHouse={updateWhichHouse}
                 />
             ))}
         </div>

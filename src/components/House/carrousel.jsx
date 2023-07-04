@@ -17,7 +17,7 @@ function Carrousel (props) {
 
     return CarrouselImg.length === 1 ? (
         <div className='carrousel__container'>
-            <img src={CarrouselImg[imageNumber]} alt="house" className='house__img' />
+            <img src={CarrouselImg[0]} alt="house" className='house__img' />
         </div>
     ) :  (
         <div className='carrousel__container'>
