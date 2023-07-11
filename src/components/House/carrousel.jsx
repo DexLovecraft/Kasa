@@ -27,10 +27,6 @@ function Carrousel (props) {
             <img src={arrow} alt="arrow to navigate in images to the right" className='arrow arrow--right' onClick={goToNextImage} />
         </div>
     )
-
-    
-
-   
 }
   
 export default Carrousel
