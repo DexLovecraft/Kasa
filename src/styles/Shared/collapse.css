@@ -1,0 +1,126 @@
+.collapsesGeneral__container {
+    min-height: 70vh;
+}
+
+.collapse__container--about {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.collapse__container--house  {
+    width: 47%;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.collapse { 
+    background-color: #FF6060;
+    color: #fff;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0;
+    z-index: 2;
+}
+
+.collapse--about {
+    height: 47px;
+}
+
+.collapse--house {
+    height: 52px;
+}
+
+.collapse__title {
+    margin-left: 20px;
+}
+.collapse__title--about {
+    font-size: 1.5em;
+}
+.collapse__title--house {
+    font-size:  1.125em;
+}
+
+.collapse__button {
+    margin-right: 20px;
+    height: 32px;
+    width: 32px;
+}
+
+.collapse__content {
+    border-radius: 5px;
+    background: #F6F6F6;
+    color: #FF6060;
+    overflow-wrap: break-word;  
+    position: relative;
+    top: -10px;
+    z-index: 0;
+}
+
+.collapse__content--house{
+    min-height: 240px;
+}
+
+.description {
+    border-radius: 5px;
+    background: #F6F6F6;
+    color: #FF6060;
+    overflow-wrap: break-word;  
+    position: relative;
+    top: -10px;
+    z-index: 0;
+}
+
+.collapse__text{
+    margin-top: 0;
+    padding: 25px;
+}
+
+.collapse__text--house{
+    font-size: 1.125em;
+}
+
+.collapse__text--house{
+    font-size: 1.5em;
+}
+
+@media (max-width: 847px) {
+    .collapse__container--house{
+        width: 100%;
+        margin-bottom: 20px;    }
+    .collapse--house {
+        height: 30px;
+    }
+    .collapse__title--house {
+        font-size: .8125em;
+    }
+    .collapseHouse__content--house{
+        min-height: 145px;
+    }
+    .collapse__text--house{
+        font-size: .75em;
+    }
+}
+
+@media (max-width: 481px) {
+    .collapse__container--about{
+        width: 85%;
+        margin-bottom: 20px;
+    }
+    .collapse--about {
+        height: 30px;
+    }
+    .collapse__title--about {
+        font-size: 0.8125em;
+    }
+    .collapse__button--about{
+        width: 18px;
+        height: 18px;
+    }
+    .collapse__text--about{
+        font-size: 0.75em;
+    }
+}

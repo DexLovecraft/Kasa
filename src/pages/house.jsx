@@ -1,9 +1,9 @@
-import { useEffect } from 'react'
+import { useEffect ,React} from 'react'
 import { useParams , useNavigate } from 'react-router-dom'
 import '../styles/House/house.css'
 import Carrousel from '../components/House/carrousel'
 import Info from '../components/House/info'
-import CollapseHouse from '../components/House/collapseHouse'
+import Collapse from '../components/Shared/collapse'
 import Houses from '../datas/logements.json'
 
 function House () {
@@ -32,8 +32,13 @@ function House () {
           <Carrousel img={specificHouse.pictures} />
           <Info house={specificHouse} />
           <div className="houseCollapse">
-            <CollapseHouse category="description" description={specificHouse.description} />
-            <CollapseHouse category="equipement" stuff={specificHouse.equipments} />
+            <Collapse title="description" content={specificHouse.description}  modifier="house" />
+            <Collapse title="equipement"  modifier="house" content={specificHouse.equipments.map((oneStuff, index)=>  
+                <div key={index}>
+                    {oneStuff}
+                    <br />
+                </div>
+                )} />
           </div>
         </div>
       );

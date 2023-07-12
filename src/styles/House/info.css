@@ -18,8 +18,10 @@
 
 .tags {
     display: flex;
+    flex-wrap: wrap;
     justify-content: left;
     margin-top: 20px;
+    width: 80vw;
 }
 
 .title, .location {
@@ -57,9 +59,5 @@
     
     .title {
         font-size: 1.125em;
-    }
-
-    .tags {
-        flex-wrap: wrap;
     }
 }
