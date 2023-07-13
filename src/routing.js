@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router,Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router,Route, Routes, Navigate } from 'react-router-dom';
 
 import Header from '././components/Shared/header';
 import Footer from '././components/Shared/footer';
@@ -17,7 +17,7 @@ function Routing() {
             <Route path="/about" element={<About />} />
             <Route path="/house/:id" element={<House />} />
             <Route path="/404" element={<Error404 />} />
-            <Route path="*" element={<Error404 />} />
+            <Route path="*" element={<Navigate to='/404' />} />
         </Routes>
         <Footer />
     </Router>
